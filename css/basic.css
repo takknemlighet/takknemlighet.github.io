@@ -1,0 +1,26 @@
+﻿html, body {background:linear-gradient(#d5e5e8, #df9d88);}
+html {padding:0 8px; margin:0 8px;}
+.header {background-color:#62adba;}
+.menu {background-color:#ffeba2;} /* temporary trick to hide menu as background-color:#ff6f68; */
+.content {background-color:#ffeba2;}
+.footer {background-color:#62adba;}
+.wrapper {display:grid; grid-template-columns:auto 1px auto auto; grid-template-rows:auto auto auto auto;} /* temporary unused feature grid-template-columns:repeat(12, 1fr); */
+.header {grid-column:auto;}
+.menu {grid-column:span 4;}
+.content {grid-column:span 8;}
+.footer {grid-column:span 8;}
+@media screen and (max-width:480px)
+{
+.header {grid-column:span 6;}
+.menu {grid-row:1; grid-column:span 6;}
+.content {grid-column:span 12;}
+.footer {grid-column:span 12;}
+.wrapper > div {font-size:15px!important;}
+}
+.wrapper > div {padding-left:20px; padding-right:20px; color:#131b04; display:flex; align-items:center; font-size:18px;}
+.row > div {padding-left:20px; color:#ffeead; display:flex; align-items:center; font-size:20px;}
+.row > .content {height:100px;}
+.row > .menu  {height:100px;}
+.row > .header {height:40px;}
+.row > .footer {height:40px;}
+body > .row {margin:0px;}
