@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+ <meta charset="utf-8"/>
+ <title>404 - Page Not Found</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="icon" type="image/png" href="img/hjelprogstottr.png"/>
+ <style>
+html, body {
+background-color:#d9dbb5; 
+margin:15px; font-family:Consolas, Verdana;}
+.container > div {
+display:flex; 
+justify-content:center; 
+align-items:center;
+ font-size:2em; 
+color:#ffddad;}
+.container > div:nth-child(1n) {
+background-color:#96cdb4;}
+.container > div:nth-child(3n) {
+background-color:#88c8b0;}
+.container > div:nth-child(2n) {
+background-color:#ff6c69;}
+.container > div:nth-child(4n) {
+background-color:#ddcb8c;}
+#container {
+display:grid;
+ grid-template-columns:repeat(3, 1fr);
+ grid-template-rows:repeat(4, 140px); grid-gap:8px;}
+ </style>
+  </head>
+ <body>
+ <div class="container" id="container">
+  <div>PAGE</div>
+
+  <div>NOT</div>
+  <div>FOUND</div>
+  <div>404</div>
+  <div>&#8668; &#8669;</div>
+  <div>404</div>
+  <div>PAGE</div>
+
+  <div>NOT</div>
+  <div>FOUND</div>
+  <div>404</div>
+  <div>&#8668; &#8669;</div>
+  <div>404</div>
+ </div>
+ </body>
+</html>
