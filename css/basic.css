@@ -1,4 +1,4 @@
-﻿html, body {background:linear-gradient(#d5e5e8, #df9d88);}
+html, body {background:linear-gradient(#d5e5e8, #df9d88);}
 html {padding:0 8px; margin:0 8px;}
 .header {background-color:#62adba;}
 .menu {background-color:#ffeba2;} /* temporary trick to hide menu as background-color:#ff6f68; */
@@ -13,7 +13,8 @@ html {padding:0 8px; margin:0 8px;}
 {
 .header {grid-column:span 6;}
 .menu {grid-row:1; grid-column:span 6;}
-.content {grid-column:span 12;}
+
+.content {grid-column:span 12;}
 .footer {grid-column:span 12;}
 .wrapper > div {font-size:15px!important;}
 }
