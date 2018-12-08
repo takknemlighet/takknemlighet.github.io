@@ -11,7 +11,7 @@ a {color:#ffeead;}
 .list :nth-child(1) {grid-column:1/ span 2;}
 .list :nth-child(6) {grid-column:1/ span 2;}
 .footer {position:fixed; right:8px; bottom:1px; color:#58616F; text-align:center; font-family:monospace, verdana; text-decoration:underline; text-shadow:0 2px white; font-weight:bold;}
-@media screen and (max-height:600px){html {font-size:70%;}}
+@media screen and (max-height:600px){html {font-size:70%;} .footer{top:1px;}}
 @media screen and (max-height:550px){html {font-size:55%;}}
 @media screen and (max-width:800px){html {font-size:70%;}}
 @media screen and (max-width:570px){html {font-size:50%;}}
